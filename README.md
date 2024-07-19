@@ -1,6 +1,8 @@
-# Current Projects
+## Hi there 👋
 
-🌐 Web - @[Mariani](https://www.instagram.com/christian_mariani/)
+### Current Projects:
+
+- 🌐 Web @ [Mariani](https://www.instagram.com/christian_mariani/)
 
 <!--
 **frapalozz/frapalozz** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
