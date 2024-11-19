@@ -2,9 +2,9 @@
 
 ### Current Projects:
 
-- [Informatica][https://informatica.palozz.com]
-- [Mariani][https://marianichristian.com]
-- [Space Smash][https://spacesmash.it]
+- [Informatica](https://informatica.palozz.com)
+- [Mariani](https://marianichristian.com)
+- [Space Smash](https://spacesmash.it)
 
 <!--
 **frapalozz/frapalozz** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
