@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/header.svg" alt="Hi, I'm frapalozz – a pixel kitten chasing a ball of yarn" width="100%"/>
+  <img src="assets/header.svg" alt="Hi, I'm frapalozz – a pixel kitten that chases yarn, chases the cursor and takes naps" width="100%"/>
 </p>
 
 Welcome to my GitHub – a place where I build tools for bioinformatics, real‑time web apps, and projects that bring ideas to life.
