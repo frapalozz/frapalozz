@@ -2,6 +2,8 @@
 
 Welcome to my GitHub – a place where I build tools for bioinformatics, real‑time web apps, and projects that bring ideas to life.
 
+🎓 Currently pursuing a **Master's degree in Computer Science**.
+
 ---
 
 ## 🔬 Thesis Projects – RNA Secondary Structure
@@ -39,11 +41,31 @@ Welcome to my GitHub – a place where I build tools for bioinformatics, real‑
 
 ---
 
+## 🧪 Side Projects
+
+### Whiteboard
+- **[Whiteboard](https://github.com/frapalozz/whiteboard)** – An infinite whiteboard built with **Next.js** and **canvas 2D**.  
+  - Pen, shapes, arrows, text, selection, undo/redo, PNG/JSON export.  
+  - Share a whole board via link (compressed in the URL, no server needed).  
+  - **Real‑time P2P collaboration** over **WebRTC**, with live named cursors.
+
+### Manhunt
+- **[Manhunt](https://github.com/frapalozz/manhunt)** – Outdoor hide‑and‑seek played straight from the browser, no app to install.  
+  - Periodic **location pings** reveal hiders to seekers on a map, with push notifications before each ping.  
+  - Server‑authoritative game logic on **Supabase** (Edge Functions + Postgres), runs entirely on free tiers.
+
+### Flip Ledger 🚧 *(work in progress)*
+- **Flip Ledger** – A **local‑first** management app for video game flipping: know your real profit on every item, even when bought in a lot.  
+  - Inventory, lots with cost distribution, sales, expenses and a dashboard – data stays in the browser (IndexedDB).  
+  - Optional cloud sync and sharing with **Supabase**, **Stripe** and **Cloudflare Pages**.
+
+---
+
 ## 🛠️ Tech I often work with
 
 - **Languages** – Python, JavaScript, TypeScript, Rust, C/C++, Java, SQL  
-- **Frameworks & Tools** – React, Next.js, Django, Node.js, Tailwind, Prisma, Redis, Cloudflare, Git  
-- **Platforms & APIs** – Notion API, Ably, Stripe, Vercel  
+- **Frameworks & Tools** – React, Next.js, Django, Node.js, Tailwind, Prisma, Redis, Supabase, Cloudflare, Git  
+- **Platforms & APIs** – Notion API, Ably, Stripe, Vercel, WebRTC  
 - **Core Concepts** – REST APIs, OOP, Dynamic Programming, Parsing, Bioinformatics
 
 ---
