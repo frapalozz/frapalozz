@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="220" viewBox="0 0 900 220" role="img" aria-label="Hi, I'm frapalozz – MSc student in Computer Science">
+  <style>
+    :root { --bg1:#f6f8fa; --bg2:#eef2ff; --fg:#1f2328; --muted:#57606a; --acc:#6366f1; --acc2:#06b6d4; --line:#d0d7de; }
+    @media (prefers-color-scheme: dark) {
+      :root { --bg1:#0d1117; --bg2:#161b2e; --fg:#e6edf3; --muted:#8b949e; --acc:#818cf8; --acc2:#22d3ee; --line:#30363d; }
+    }
+    .title { font: 700 40px -apple-system, "Segoe UI", Helvetica, Arial, sans-serif; fill: var(--fg); }
+    .sub   { font: 400 20px ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace; fill: var(--muted); }
+    .acc   { fill: var(--acc); }
+    .node  { fill: var(--acc2); opacity: .55; }
+    .edge  { stroke: var(--line); stroke-width: 1.5; }
+    .card  { stroke: var(--line); }
+  </style>
+
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" style="stop-color:var(--bg1)"/>
+      <stop offset="1" style="stop-color:var(--bg2)"/>
+    </linearGradient>
+    <linearGradient id="bar" x1="0" x2="1">
+      <stop offset="0" style="stop-color:var(--acc)"/>
+      <stop offset="1" style="stop-color:var(--acc2)"/>
+    </linearGradient>
+    <clipPath id="c0"><rect x="60" y="120" height="40" width="0"><animate attributeName="width" values="0;396;396;0;0" keyTimes="0;.1;.22;.25;1" dur="16s" begin="0s" repeatCount="indefinite"/></rect></clipPath>
+    <clipPath id="c1"><rect x="60" y="120" height="40" width="0"><animate attributeName="width" values="0;0;516;516;0;0" keyTimes="0;.25;.37;.47;.5;1" dur="16s" begin="0s" repeatCount="indefinite"/></rect></clipPath>
+    <clipPath id="c2"><rect x="60" y="120" height="40" width="0"><animate attributeName="width" values="0;0;312;312;0;0" keyTimes="0;.5;.58;.72;.75;1" dur="16s" begin="0s" repeatCount="indefinite"/></rect></clipPath>
+    <clipPath id="c3"><rect x="60" y="120" height="40" width="0"><animate attributeName="width" values="0;0;408;408;0" keyTimes="0;.75;.85;.97;1" dur="16s" begin="0s" repeatCount="indefinite"/></rect></clipPath>
+  </defs>
+
+  <rect class="card" x="1" y="1" width="898" height="218" rx="16" fill="url(#bg)"/>
+
+  <!-- floating graph in the background -->
+  <g>
+    <line class="edge" x1="700" y1="60" x2="790" y2="95"/>
+    <line class="edge" x1="790" y1="95" x2="740" y2="160"/>
+    <line class="edge" x1="740" y1="160" x2="840" y2="170"/>
+    <line class="edge" x1="790" y1="95" x2="850" y2="55"/>
+    <line class="edge" x1="700" y1="60" x2="740" y2="160"/>
+    <animateTransform attributeName="transform" type="translate" values="0 0;0 -6;0 0" dur="6s" repeatCount="indefinite"/>
+    <circle class="node" cx="700" cy="60" r="7"><animate attributeName="r" values="7;10;7" dur="3s" repeatCount="indefinite"/></circle>
+    <circle class="node" cx="790" cy="95" r="9"><animate attributeName="r" values="9;6;9" dur="4s" repeatCount="indefinite"/></circle>
+    <circle class="node" cx="740" cy="160" r="6"><animate attributeName="r" values="6;9;6" dur="3.5s" repeatCount="indefinite"/></circle>
+    <circle class="node" cx="840" cy="170" r="8"><animate attributeName="r" values="8;5;8" dur="5s" repeatCount="indefinite"/></circle>
+    <circle class="node" cx="850" cy="55" r="5"><animate attributeName="r" values="5;8;5" dur="4.5s" repeatCount="indefinite"/></circle>
+  </g>
+
+  <!-- title -->
+  <text class="title" x="60" y="92">Hi, I'm frapalozz</text>
+  <text x="392" y="90" font-size="38">
+    👋
+    <animateTransform attributeName="transform" type="rotate" values="0 412 78;18 412 78;-8 412 78;18 412 78;0 412 78;0 412 78" keyTimes="0;.1;.2;.3;.4;1" dur="2.5s" repeatCount="indefinite"/>
+  </text>
+  <rect x="60" y="106" height="4" rx="2" fill="url(#bar)" width="0">
+    <animate attributeName="width" values="0;180" dur="1.2s" fill="freeze"/>
+  </rect>
+
+  <!-- typing lines (monospace, 12px per char) -->
+  <text class="sub" x="60" y="148" clip-path="url(#c0)" textLength="396" lengthAdjust="spacingAndGlyphs">&gt; MSc student in Computer Science</text>
+  <text class="sub" x="60" y="148" clip-path="url(#c1)" textLength="516" lengthAdjust="spacingAndGlyphs">&gt; Bioinformatics · RNA secondary structures</text>
+  <text class="sub" x="60" y="148" clip-path="url(#c2)" textLength="312" lengthAdjust="spacingAndGlyphs">&gt; Real-time &amp; P2P web apps</text>
+  <text class="sub" x="60" y="148" clip-path="url(#c3)" textLength="408" lengthAdjust="spacingAndGlyphs">&gt; Local-first tools that just work</text>
+
+  <!-- cursor following the typed text -->
+  <rect class="acc" y="131" width="10" height="22" x="60">
+    <animate attributeName="x" values="62;458;458;62;62;578;578;62;62;374;374;62;62;470;470;62"
+             keyTimes="0;.1;.22;.25;.26;.37;.47;.5;.51;.58;.72;.75;.76;.85;.97;1" dur="16s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;.5;.5;1" dur="1s" repeatCount="indefinite"/>
+  </rect>
+</svg>

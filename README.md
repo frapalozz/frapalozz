@@ -1,4 +1,6 @@
-# 👋 Hi there!
+<p align="center">
+  <img src="assets/header.svg" alt="Hi, I'm frapalozz – MSc student in Computer Science" width="100%"/>
+</p>
 
 Welcome to my GitHub – a place where I build tools for bioinformatics, real‑time web apps, and projects that bring ideas to life.
 
