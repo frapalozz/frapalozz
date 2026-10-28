@@ -63,6 +63,12 @@ Welcome to my GitHub – a place where I build tools for bioinformatics, real‑
 
 ---
 
+## 🏆 Hackathons
+
+- **[ZInG Hackathon – Var Group](https://landing.vargroup.com/zing)** *(October 2026)* – Took part in the hackathon at **ZInG – Zone of Innovation & Growth**, Var Group's innovation event.
+
+---
+
 ## 🛠️ Tech I often work with
 
 - **Languages** – Python, JavaScript, TypeScript, Rust, C/C++, Java, SQL  
