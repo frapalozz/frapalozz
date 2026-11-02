@@ -1,6 +1,6 @@
-<p align="center">
+<!--<p align="center">
   <img src="assets/header.svg" alt="Hi, I'm frapalozz – a pixel kitten that chases yarn, chases the cursor and takes naps" width="100%"/>
-</p>
+</p>-->
 
 Welcome to my GitHub – a place where I build tools for bioinformatics, real‑time web apps, and projects that bring ideas to life.
 
